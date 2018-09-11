@@ -27,4 +27,54 @@ $ git commit -[0K[?25hm[0K[17G[16G[?25l$ git commit -[0K[?25h[?25l$ g
 [0K[?25h[?25l
 [0;32mJCOE@LT1414 [0;35m [0;33m~/Documents/Projects/shinyframer[0;36m (master)[0m[0K
 $ git add -[0K[?25hA[0K[?25l
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/B7385CEA/sources/prop/72A74414.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/B7385CEA/sources/prop/INDEX.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+warning: LF will be replaced by CRLF in .Rproj.user/B7385CEA/sources/s-14782CAF/29096FAB.[0K
+The file will have its original line endings in your working directory.[0K
+[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/B7385CEA/sources/s-14782CAF/29096FAB-contents.[0K[?25l
+The file will have its original line endings in your working directory.[0K
+[0K[?25h[?25l
+[0;32mJCOE@LT1414 [0;35m [0;33m~/Documents/Projects/shinyframer[0;36m (master)[0m[0K
+$ git commit -m ""[0K[18G[?25h[?25l$ git commit -m "i"[0K[19G[?25h[?25l$ git commit -m "in"[0K[20G[?25h[?25l$ git commit -m "ini"[0K[21G[?25h[?25l$ git commit -m "init"[0K[22G[?25h[?25l
+[0K[?25h[master (root-commit) 4985c72] init[0K[?25l
+ 11 files changed, 3941 insertions(+)[0K
+ create mode 100644 .Rproj.user/B7385CEA/console06/9D599374[0K
+ create mode 100644 .Rproj.user/B7385CEA/console06/INDEX001[0K
+ create mode 100644 .Rproj.user/B7385CEA/sources/prop/72A74414[0K
+ create mode 100644 .Rproj.user/B7385CEA/sources/prop/INDEX[0K
+ create mode 100644 .Rproj.user/B7385CEA/sources/s-14782CAF/29096FAB[0K
+ create mode 100644 .Rproj.user/B7385CEA/sources/s-14782CAF/29096FAB-contents[0K
+ create mode 100644 .Rproj.user/B7385CEA/sources/s-14782CAF/lock_file[0K
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names[0K
+ create mode 100644 app.R[0K
+ create mode 100644 shinyframer.Rproj[0K
+ create mode 100644 www/model.ply[0K
+[0K[?25h[?25l
+[0;32mJCOE@LT1414 [0;35m [0;33m~/Documents/Projects/shinyframer[0;36m (master)[0m[0K
+$ git[0K[7G[?25h[?25l$ git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25hfatal: The current branch master has no upstream branch.[0K[?25l
+To push the current branch and set the remote as upstream, use[0K
+[0K
+    git push --set-upstream origin master[0K
+[0K
+[0K[?25h[?25l
+[0;32mJCOE@LT1414 [0;35m [0;33m~/Documents/Projects/shinyframer[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ git push[0K[?25h[12G[?25l$ git push -[0K[?25hu[0K[15G[?25l$ git push -u o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[22G[?25l$ git push -u origin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[?25l
+[0K[?25hCounting objects: 20, done.[0K[?25l
+Delta compression using up to 4 threads.[0K
+Compressing objects:  13% (2/15)[0K[1G[?25hCompressing objects: 100% (15/15), done.[0K[?25l
+Writing objects:  65% (13/20)[0K[1G[?25hWriting objects: 100% (20/20), 23.43 KiB | 510.00 KiB/s, done.[0K[?25l
+Total 20 (delta 0), reused 0 (delta 0)[0K
+[0K[?25hremote:[0K[?25l
+remote: Create a pull request for 'master' on GitHub by visiting:[0K
+remote:      https://github.com/JohnCoene/shiny-aframer/pull/new/master[0K
+remote:[0K
+To https://github.com/JohnCoene/shiny-aframer.git[0K
+ * [new branch]      master -> master[0K
+[0K[?25hBranch master set up to track remote branch master from origin.[0K[?25l
+[0K[?25h[?25l
+[0;32mJCOE@LT1414 [0;35m [0;33m~/Documents/Projects/shinyframer[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ g[0K[?25hi[0K[?25lt[0K[5G[?25h[6G[7G[?25l$ git a[0K[?25h[?25ld[0K[8G[?25h[9G[?25l$ git add[0K[?25h[11G[?25l$ git add -[0K[?25hA[0K[?25l
 [0K[?25h

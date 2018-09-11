@@ -8,11 +8,12 @@ ui <- fluidPage(
     column(
       12,
       embed_aframe(
+        height = "100vh",
         a_scene(
           a_dependency(),
           aextras_dependency(),
           a_assets(
-            timeout="25000",
+            timeout = 25000,
             a_primitive(
               "asset-item",
               list(
