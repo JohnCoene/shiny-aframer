@@ -14,18 +14,25 @@ ui <- fluidPage(
           aextras_dependency(),
           a_assets(
             timeout = 25000,
-            a_primitive(
-              "asset-item",
-              list(
-                id = "model",
-                src = "model.ply"
-              )
+            a_asset_item(
+              id = "obj", 
+              src = "model.obj"
+            ),
+            a_asset_item(
+              id = "mtl", 
+              src = "model.mtl"
             )
           ),
           a_sky(color = "#ECECEC"),
-          a_entity(
-            `ply-model` = "src: #model",
+          a_obj_model(
+            src = "#obj",
+            mtl = "#mtl",
             rotation = "-90 0 0"
+          ),
+          a_entity(
+            a_camera(
+              position = "0 0 25"
+            )
           )
         )
       )
